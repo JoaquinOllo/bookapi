@@ -1,0 +1,42 @@
+{
+  "name": "merntuto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "app": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaquinOllo/mern_tutorial.git"
+  },
+  "keywords": [
+    "mern",
+    "mongodb",
+    "react",
+    "express",
+    "tutorial"
+  ],
+  "author": "Joaquin Ollo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoaquinOllo/mern_tutorial/issues"
+  },
+  "homepage": "https://github.com/JoaquinOllo/mern_tutorial#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7",
+    "react-router-dom": "^6.2.1",
+    "validation": "^0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
